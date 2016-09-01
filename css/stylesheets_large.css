@@ -1,15 +1,15 @@
 
 /*
 
-Color Scheme: 
- #000000 Black 
- #303232 Black Gray 
- #3D4040 Drake Gray 
+Color Scheme:
+ #000000 Black
+ #303232 Black Gray
+ #3D4040 Drake Gray
  #7A7F7F Light Gray
  #F5FFFF Gray White
  #FFFFFF White
 
- Text: 
+ Text:
   Snell Round Hand
   Droid sans
   Myriad Pro
@@ -17,18 +17,18 @@ Color Scheme:
   Arial
   Times
 
- Fonts:  
+ Fonts:
   *Body Fonts-
     Droid San/San Serif
     Anglecia Pro Display
     Geotica Three
-    Kameron     
+    Kameron
 
   *Heading Fonts-
     Dustismo Roman
     Ubuntu
     Amaranth
-    Snell Roundhand  
+    Snell Roundhand
     */
 
 
@@ -36,25 +36,24 @@ Color Scheme:
 
 
 
-a, a:visited, a:link {
+nav a, a:visited, a:link {
   color: #F5FFFF;
-  border-style: ridge; 
+  border-style: ridge;
   font-size: 1.3em;
   font-weight: 1em;
-  color: #F5FFFF;
   background-color: #303232;
   text-align: center;
   padding: 15px;
   text-decoration: none;
   text-transform: uppercase;
-  max-width: 187px;
+  max-width: 180px;
   min-width: 100px;
   position: center;
 }
 
 a:hover, a:focus {
   background-color: #FFFFFF;
-  color: #000000; 
+  color: #000000;
 }
 
 nav a{
@@ -62,37 +61,34 @@ nav a{
     color: #DDDDDD;
     margin-bottom: 0em;
     padding-bottom: 0em;
-
 }
 
-nav ul {
+/* Moves Nav bar */
+nav ul li li ul {
     height: auto;
-    padding: 5px;
+    padding: 3px;
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
-    text-align: center;
+    max-width: 2140px;
+    min-width: 701px;
 }
 
-
 nav {
-    display: inline-block;
-    width: 100%;
+    display: inline-flex;
+    width: auto;
     color: #DDDDDD;
     padding-bottom: 0em;
     margin-bottom: 0px;
     margin-top: 0px;
-    position: ;
 }
-
+/*
 nav li {
     display: inline;
     padding: 20px;
     text-align: center;
     margin: 0 auto;
 }
-
-
+*/
 li:hover > ul {
     display: block;
 
@@ -119,14 +115,8 @@ li {
     position: relative;
 }
 
- 
-./*menu a {
-    transition:all linear 0.15s;
-    color: #F5FFFF;
-}
-*/
-/*----- Top Level -----*/
 
+/*----- Top Level -----*/
 
 .menu > ul > li {
     float: left;
@@ -134,17 +124,17 @@ li {
     position: relative;
     font-size: 19px;
 }
- 
+
 .menu > ul > li > a {
     padding: 10px 40px;
     display: inline-block;
     text-shadow: 0px 1px 0px;
 }
- 
+
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
     background: #2e2728;
 }
- 
+
 /*----- Bottom Level -----*/
 
 
@@ -152,7 +142,7 @@ li {
     z-index: 1;
     opacity: 1;
 }
- 
+
 .sub-menu {
     width: 150%;
     padding: 5px 0px;
@@ -164,27 +154,27 @@ li {
     box-shadow: 0px 2px 3px ;
     background: #303232;
 }
- 
+
 .sub-menu li {
     display: block;
     font-size: 16px;
 }
- 
+
 .sub-menu li a {
     padding: 10px 30px;
     display: block;
 }
- 
+
 .sub-menu li a:hover, .sub-menu .current-item a {
     background: #F5FFFF;
 }
 
  /*-------------Image Gallery------------*/
- 
+
 .img- img {
     width: 100%;
     height: auto;
-} 
+}
 
 .img-ne {
   width: 242px;
@@ -197,7 +187,7 @@ li {
     height: 187px;
     position: inline;
  }
- 
+
 .img-two {
     width: 362px;
     height: 187px;
@@ -235,8 +225,8 @@ img:hover {
     padding: 15px;
     text-align: center;
 }
- 
- 
+
+
 
 /*--------------Index Page---------------*/
 
@@ -246,25 +236,25 @@ body {
   background-color: #FFFFFF;
   text-align: center;
   margin-left: 10%;
-  margin-right: 10%; 
+  margin-right: 10%;
   background-image: url("/_assets/media/silver-texture.jpg");
 
-} 
+}
 
 div {
   border: 9px;
   border-style: double;
-  border-radius: 10px; 
-  border-color: #ccc; 
+  border-radius: 10px;
+  border-color: #ccc;
   padding: 1.2em;
-  margin: 1em; 
+  margin: 1em;
   color: #303232;
   background-color: #303232;
 
 
 }
 
- h1 { 
+ h1 {
     font-size: 2.7em;
     font-weight: bold;
     font-family: "Myriad Pro", Helvetica;
@@ -272,13 +262,13 @@ div {
     color: #FFFFFF;
     }
 
-  h2 { 
+  h2 {
      font-size: 1.8em;
      font-family: "Times", Times, serif ;
-     color: #F5FFFF; 
+     color: #F5FFFF;
      text-align: center;}
 
-    h3 { 
+    h3 {
         color: #F5FFFF;
         font-size: 1.7em;
         font-family: "Times New Roman", Helvetica, sans-serif ;
@@ -293,7 +283,7 @@ hr {
   margin-top: 35px;
 }
 
- #ph-three {
+ .ph-three {
   font-size: .8em;
  }
 
@@ -354,8 +344,8 @@ hr {
 }
 
 .prj-img-nine {
-  width: 620px; 
-  height: 540px; 
+  width: 620px;
+  height: 540px;
 }
 
 .prj-img-eight {
@@ -397,7 +387,7 @@ hr {
 
 .prj-img-two {
   width: 720px;
-  height: 420px; 
+  height: 420px;
 }
 
 .prj-img-one: {
@@ -438,7 +428,7 @@ hr {
 
 .e-m {
   font-size: .8em;
-  
+
 }
 
 p {
@@ -461,7 +451,7 @@ p {
 
 .list li {
     padding: 1.2em;
-    font-size: 1.3em;    
+    font-size: 1.3em;
 }
 
 
@@ -471,5 +461,3 @@ p {
   color: #000000;
   text-align: center;
 }
-
-
