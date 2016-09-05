@@ -170,7 +170,7 @@ li {
  /*-------------Image Gallery------------*/
 
 .img- img {
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
@@ -186,10 +186,6 @@ li {
     position: inline;
  }
 
-.prj-img-one {
-   width: 500px;
-   height: 200px;
-}
 
 .img-two {
     width: 362px;
