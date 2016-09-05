@@ -39,11 +39,11 @@ Color Scheme:
 nav a, a:visited, a:link {
   color: #F5FFFF;
   border-style: ridge;
-  font-size: 1.3em;
-  font-weight: 1em;
+  font-size: 1.2em;
+  font-weight: 0.9em;
   background-color: #303232;
   text-align: center;
-  padding: 14px;
+  padding: 12px;
   text-decoration: none;
   text-transform: uppercase;
   max-width: 160px;
@@ -70,7 +70,7 @@ nav ul li li ul {
     margin-left: auto;
     margin-right: auto;
     max-width: 2140px;
-    min-width: 400px;
+    min-width: 560px;
 }
 
 nav {
