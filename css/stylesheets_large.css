@@ -47,7 +47,7 @@ nav a, a:visited, a:link {
   text-decoration: none;
   text-transform: uppercase;
   max-width: 180px;
-  min-width: 80px;
+  min-width: 60px;
   position: center;
 }
 
