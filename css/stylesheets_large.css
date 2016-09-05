@@ -169,13 +169,27 @@ li {
 
  /*-------------Image Gallery------------*/
 
+.img- img {
+    width: auto;
+    height: auto;
+}
 
+.img-ne {
+  width: 242px;
+  height: 242px;
+  postion: inline;
+}
 
 .img-one {
     width: 362px;
     height: 187px;
     position: inline;
  }
+
+.prj-img-one {
+   width: 500px;
+   height: 200px;
+}
 
 .img-two {
     width: 362px;
