@@ -39,15 +39,15 @@ Color Scheme:
 nav a, a:visited, a:link {
   color: #F5FFFF;
   border-style: ridge;
-  font-size: 1.3em;
-  font-weight: 1em;
+  font-size: 1.1em;
+  font-weight: .8em;
   background-color: #303232;
   text-align: center;
-  padding: 15px;
+  padding: 12px;
   text-decoration: none;
   text-transform: uppercase;
-  max-width: 180px;
-  min-width: 100px;
+  max-width: 150px;
+  min-width: 80px;
   position: center;
 }
 
@@ -66,11 +66,11 @@ nav a{
 /* Moves Nav bar */
 nav ul li li ul {
     height: auto;
-    padding: 3px;
+    padding: 1px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 2140px;
-    min-width: 701px;
+    max-width: 1280px;
+    min-width: 700px;
 }
 
 nav {
@@ -122,7 +122,7 @@ li {
     float: left;
     display: inline-block;
     position: relative;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 .menu > ul > li > a {
