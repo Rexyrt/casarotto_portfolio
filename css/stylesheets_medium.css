@@ -41,11 +41,11 @@ nav a, a:visited, a:link {
   font-weight: 0.7em;
   background-color: #303232;
   text-align: center;
-  padding: 9px;
+  padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
-  max-width: 90px;
-  min-width: 20px;
+  max-width: 130px;
+  min-width: 50px;
   position: center;
 }
 
@@ -67,7 +67,7 @@ nav ul li li ul {
     padding: 0px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 560px;
+    max-width: 460px;
     min-width: 350px;
 }
 
@@ -104,7 +104,7 @@ ul ul {
 
 ul {
   list-style-type: none;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 1px;
 }
 
@@ -120,11 +120,11 @@ li {
     float: left;
     display: inline-block;
     position: relative;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .menu > ul > li > a {
-    padding: 10px 10px;
+    padding: 10px 40px;
     display: inline-block;
     text-shadow: 0px 1px 0px;
 }
@@ -159,7 +159,7 @@ li {
 }
 
 .sub-menu li a {
-    padding: 10px 40px;
+    padding: 10px 30px;
     display: block;
 }
 
