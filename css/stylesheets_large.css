@@ -169,16 +169,7 @@ li {
 
  /*-------------Image Gallery------------*/
 
-.img- img {
-    width: 100%;
-    height: auto;
-}
 
-.img-ne {
-  width: 242px;
-  height: 242px;
-  postion: inline
-}
 
 .img-one {
     width: 362px;
