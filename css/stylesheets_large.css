@@ -300,8 +300,8 @@ hr {
 }
 
 .prj-img-sixtn {
-  width: 986px;
-  height: 380px;
+  width: 840px;
+  height: 324px;
 }
 
 .prj-img-fiftn {
@@ -322,8 +322,8 @@ hr {
 }
 
 .prj-img-thrtn {
-  width: 952px;
-  height: 337px;
+  width: 864px;
+  height: 306px;
 }
 
 .prj-img-twe {
@@ -388,7 +388,7 @@ hr {
   height: 420px;
 }
 
-.prj-img-one: {
+img .prj-img-one: {
   width: 500px;
   height: 200px;
 
