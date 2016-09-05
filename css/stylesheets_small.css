@@ -39,11 +39,11 @@ Color Scheme:
 nav a, a:visited, a:link {
   color: #F5FFFF;
   border-style: ridge;
-  font-size: 0.7em;
-  font-weight: 0.4em;
+  font-size: 0.4em;
+  font-weight: 0.2em;
   background-color: #303232;
   text-align: center;
-  padding: 9px;
+  padding: 6px;
   text-decoration: none;
   text-transform: uppercase;
   max-width: 90px;
