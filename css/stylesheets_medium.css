@@ -425,7 +425,7 @@ hr {
 }
 
 .e-m {
-  font-size: .3em;
+  font-size: .6em;
 
 }
 
@@ -448,8 +448,8 @@ p {
 }
 
 .list li {
-    padding: 15px;
-    font-size: 1em;
+    padding: 0.9em;
+    font-size: 1.1em;
 }
 
 
