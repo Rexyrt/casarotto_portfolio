@@ -12,26 +12,28 @@
 
 
 * Fonts
-  * Top Fonts.
+  * Top Fonts:
     Helvetica
     Times
 
-  *Body Fonts-
+  *Body Fonts:
     Droid San/San Serif
     Anglecia Pro Display
     Geotica Three
     Kameron
 
-  *Heading Fonts-
+  *Heading Fonts:
     Dustismo Roman
     Ubuntu
     Amaranth
     Snell Roundhand
 
 
-* Content
+* Content:
   * Nav Styles:
-    -
+    - Large Nav Bar
+    - Medium Nav Bar
+    - 
 
   * Front Image Gallery:
     -
@@ -47,10 +49,12 @@
 
   * Footer:
     -
-  
+
 */
 
 /*---------------Nav Bar------------------*/
+
+/*--------------Large Nav Bar-------------*/
 /*
 nav a, a:visited, a:link {
   color: #F5FFFF;
@@ -186,6 +190,15 @@ li {
     background: #F5FFFF;
 }
 */
+
+/*---------------Medium Nav Bar----------------*/
+/*
+@media only screen and (max-device-width: 600px)
+*/
+
+
+
+
  /*-------------Front Image Gallery------------*/
 /*
 .img- img {
