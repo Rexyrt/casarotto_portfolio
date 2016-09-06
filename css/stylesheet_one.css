@@ -2,23 +2,20 @@
 
 /*
 
-Color Scheme:
- #000000 Black
- #303232 Black Gray
- #3D4040 Drake Gray
- #7A7F7F Light Gray
- #F5FFFF Gray White
- #FFFFFF White
+* Color Scheme:
+  #000000 Black
+  #303232 Black Gray
+  #3D4040 Drake Gray
+  #7A7F7F Light Gray
+  #F5FFFF Gray White
+  #FFFFFF White
 
- Text:
-  Snell Round Hand
-  Droid sans
-  Myriad Pro
-  Helvetica
-  Arial
-  Times
 
- Fonts:
+* Fonts
+  * Top Fonts.
+    Helvetica
+    Times
+
   *Body Fonts-
     Droid San/San Serif
     Anglecia Pro Display
@@ -30,8 +27,28 @@ Color Scheme:
     Ubuntu
     Amaranth
     Snell Roundhand
-    */
 
+
+* Content
+  * Nav Styles:
+    -
+
+  * Front Image Gallery:
+    -
+
+  * Body Styles:
+    -
+
+  * Project Images:
+    -
+
+  * About Me:
+    -
+
+  * Footer:
+    -
+  
+*/
 
 /*---------------Nav Bar------------------*/
 /*
@@ -62,7 +79,7 @@ nav a{
     padding-bottom: 0em;
 }
 */
-/* Moves Nav bar 
+/* Moves Nav bar
 nav ul li li ul {
     height: auto;
     padding: 3px;
@@ -169,7 +186,7 @@ li {
     background: #F5FFFF;
 }
 */
- /*-------------Image Gallery------------*/
+ /*-------------Front Image Gallery------------*/
 /*
 .img- img {
     width: 100%;
@@ -229,7 +246,7 @@ img:hover {
 
 */
 
-/*--------------Index Page---------------*/
+/*--------------Body Styles---------------*/
 /*
 body {
   font-size: 1em black;
@@ -289,7 +306,7 @@ hr {
  }
 */
 
-/*--------------Projects/Images------------------*/
+/*--------------Projects Images------------------*/
 
 /*
 .prj-img-eigtn {
@@ -398,19 +415,6 @@ hr {
 
 */
 
-/*----------------Studio C-----------------*/
-
-
-
-
-
-
-
-/*-----------Senior Capstone---------------*/
-
-
-
-
 
 /*--------------About Me-------------------*/
 /*
@@ -455,7 +459,7 @@ p {
 }
 */
 
-/*---------------footer--------------------*/
+/*---------------Footer--------------------*/
 /*
 #fot {
   color: #000000;
