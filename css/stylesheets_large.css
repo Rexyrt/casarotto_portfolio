@@ -429,8 +429,8 @@ hr {
 
 }
 
-p {
-  text-align: left;
+section p {
+  text-align: center;
   color: #FFFFFF;
   font-family: "Myriad Pro", Helvetica;
 }
