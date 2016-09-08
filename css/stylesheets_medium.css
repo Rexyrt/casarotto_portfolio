@@ -38,7 +38,7 @@ nav a, a:visited, a:link {
   color: #F5FFFF;
   border-style: ridge;
   font-size: 0.8em;
-  font-weight: 0.7em;
+  font-weight: 0.6em;
   background-color: #303232;
   text-align: center;
   padding: 10px;
@@ -120,7 +120,7 @@ li {
     float: left;
     display: inline-block;
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .menu > ul > li > a {
@@ -155,7 +155,7 @@ li {
 
 .sub-menu li {
     display: block;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .sub-menu li a {
@@ -229,7 +229,7 @@ img:hover {
 /*--------------Index Page---------------*/
 
 body {
-  font-size: 1em black;
+  font-size: 0.8em black;
   font-weight: normal;
   background-color: #FFFFFF;
   text-align: center;
@@ -424,8 +424,8 @@ hr {
 
 }
 
-.e-m {
-  font-size: .3em;
+a .e-m {
+  font-size: 0.6em;
 
 }
 
