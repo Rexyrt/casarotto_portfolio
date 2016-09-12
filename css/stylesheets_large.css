@@ -236,8 +236,6 @@ body {
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  background-image: url("/_assets/media/silver-texture.jpg");
-
 }
 
 section {
@@ -426,6 +424,7 @@ hr {
 
 .e-m {
   font-size: .8em;
+  font-family: "Times", Times, serif ;
 
 }
 
